@@ -24,15 +24,25 @@ Alasan lain untuk menggunakan VCS (atau git)?
 * Safer than without VCS
 
 Git Perintah Paling Umum :
-git **init** -> Inisialisasi repositori git
-git **clone** -> Mengkloning repositori yang ada
-git **status** -> Periksa status repositori git
-git **add** -> Tambahkan file yang diubah di folder kerja ke area pementasan
-git **commit** -m "message" -> Catat perubahannya
-git **log** -> Lihat riwayat komit
-git **pull** -> Dapatkan perubahan dari repositori jarak jauh
-git **push** -> Dorong perubahan ke repositori jarak jauh
-git **remote** -> Konfigurasikan repositori jarak jauh
+- git **init** -> Inisialisasi repositori git
+- git **clone** -> Mengkloning repositori yang ada
+- git **status** -> Periksa status repositori git
+- git **add** -> Tambahkan file yang diubah di folder kerja ke area pementasan
+- git **commit** -m "message" -> Catat perubahannya
+- git **log** -> Lihat riwayat komit
+- git **pull** -> Dapatkan perubahan dari repositori jarak jauh
+- git **push** -> Dorong perubahan ke repositori jarak jauh
+- git **remote** -> Konfigurasikan repositori jarak jauh
+
+Latihan : Basic Flow
+1. Clone repository from remote repository : git clone nama_repositori.
+2. Initialize a project : git init
+3. Create .gitignore file : touch .gitignore
+4. Add all files into staging : git add .
+5. Commit with meaningful message : git commit -m 'Initial Commit'
+6. Push to remote repository : git push origin master
+
+
 
 
 
