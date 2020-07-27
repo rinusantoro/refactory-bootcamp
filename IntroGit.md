@@ -42,7 +42,14 @@ Latihan : Basic Flow
 5. Commit with meaningful message : git commit -m 'Initial Commit'
 6. Push to remote repository : git push origin master
 
-
+Exercise 3: Handle Some Conflicts
+1. Create new branch from master branch : git checkout -b rinu
+2. Make some changes : tambahkan baris ini di file IntroGit.md lalu save file.
+3. Commit with meaningful message : perintahnya git add . lalu git commit -m 'Added Exercise 3'
+4. Push : perintahnya git push origin rinu
+5. Create a merge request (or pull request) : buka https://github.com/rinusantoro/refactory-bootcamp/pulls klik New pull request -> Klik Compare branch amas -> Klik Create pull request.
+6. Another person will do the same thing (repeat step 1 to 5)
+7. Merge, and handle the conflicts
 
 
 
