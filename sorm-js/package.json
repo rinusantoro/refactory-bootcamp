@@ -1,0 +1,22 @@
+{
+  "name": "sorm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@caporal/core": "^2.0.2",
+    "caporal": "^1.4.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.4",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sonasa",
+  "license": "ISC",
+  "bin": {
+    "todo": "./todo"
+  }
+}
