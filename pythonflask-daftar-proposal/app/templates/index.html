@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h4 id="version" style="color:white;">Backbone</h4>
+        <h3>{{message_key}}</h3>
+          <form action="/daftar-proposal">
+            <div class="form-group">
+              <label for="nama">Nama Lengkap:</label>
+              <input type="text" class="form-control" id="namalengkap">  
+            </div>
+            <div class="form-group">
+                <label for="nim">NIM:</label><br>
+                <input type="text" class="form-control" id="nim">    
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="prodis">Program Studi :</label>
+                    <select class="form-control" id="prodi">
+                    <option>Pilih Salah Satu</option>
+                    <option value="sisteminformasi">S1 Sistem Informasi</option>
+                    <option value="manajemen">S1 Manajemen</option>
+                    <option value="akuntansi">S1 Akuntansi</option>
+                    <option value="hukum">S1 Hukum</option>
+                    </select>
+                  </div>
+            </div>
+            <div class="form-group">
+                <label for="sks">SKS Komulatif:</label>
+                <input type="text" class="form-control" id="sks">
+            </div>
+            <div class="form-group">
+                <label for="ipk">IPK Komulatif:</label>
+                <input type="text" class="form-control" id="ipk">
+            </div>
+            <div class="form-group">
+              <label for="judul">Judul Proposal Skripsi:</label>
+              <input type="text" class="form-control" id="judul">
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="pembimbings">Pembimbing :</label>
+                    <select class="form-control" id="pembimbing">
+                    <option>Pilih Salah Satu</option>
+                    <option value="dimas">Dimas Agung Prasetyo, S.Kom., M.Sc.</option>
+                    <option value="maalik">Iswaya Maalik Syahrani, S.Kom., M.Kom.</option>
+                    <option value="kani">Kani, S.Kom.,M. Kom.</option>
+                    <option value="iwan">Iwan Susanto, S.Kom., M.Kom.</option>
+                    </select>
+                  </div>
+            </div>
+            <div class="form-group">
+                <label for="upload">Upload Naskah Proposal Skripsi:</label>
+                <input type="file" class="form-control" id="fileToUpload">
+            </div>            
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+
+    </body>
+</html>
