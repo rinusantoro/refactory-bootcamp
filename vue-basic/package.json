@@ -9,7 +9,7 @@
   "dependencies": {
     "bootstrap": "^5.0.0-alpha1",
     "core-js": "^3.6.5",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "vue": "^2.6.11",
     "vue-content-placeholders": "^0.2.1",
     "vue-router": "^3.4.3"
